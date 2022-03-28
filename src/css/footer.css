@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   height: 88px;
+}
+
+footer p {
+    color: black;
+    display: flex;
+    font-weight: 800;
+    font-family: var(--quick);
+
+}

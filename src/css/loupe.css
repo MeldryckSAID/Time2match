@@ -1,8 +1,9 @@
 
 .search-box {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 47%;
+    left: 51%;
+    
    
     transform: translate(-50%, -50%);
     background: white;
@@ -16,7 +17,7 @@
     text-align: center;
   }
   .search-box:hover > .search-btn {
-    background: black;
+    background: var(--orange);
     color: white;
   }
   .search-btn {
@@ -25,7 +26,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: var(--orange);
+    background: black;
     display: flex;
     justify-content: center;
     transition: 1s;

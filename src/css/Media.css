@@ -7,21 +7,22 @@
     display: flex;
     z-index: -5;
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 66%;
 }
 
 .down{
-    width: 10%;
+    width: 5%;
     position: absolute;
-    top: 35%;
-    left: 45%;  
+    top: 85%;
+    left: 48.5%;  
 }
 
 .lp{
-    width: 34%;
-    
+    width: 28%;
+    z-index: -2;
     position: absolute;
-    left: 35%;
+    top: 148%;
+    left: 37%;
 }
   

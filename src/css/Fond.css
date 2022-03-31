@@ -21,7 +21,20 @@ body {
    
  }
 
- input[type=checkbox] + label {
+
+
+
+.encerclement{
+  border: 5px solid var(--orange);
+  margin: 10px;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+
+input[type=checkbox] + label {
   display: block;
   margin: 0.2em;
   cursor: pointer;
@@ -34,7 +47,7 @@ input[type=checkbox] {
 
 input[type=checkbox] + label:before {
   content: "\2714";
-  border: 0.1em solid rgb(0, 0, 0);
+  border: 0.1em solid var(--blanc);
   border-radius: 0.2em;
   display: inline-block;
   width: 1em;
@@ -53,22 +66,14 @@ input[type=checkbox] + label:active:before {
 
 input[type=checkbox]:checked + label:before {
   background-color: var(--orange);
-  border-color: var(--orange);
-  color: var(--noir);
+  border-color: var(--blanc);
+  color: var(--blanc);
 }
 
-input[type=checkbox]:disabled + label:before {
+
+
+input[type=checkbox]:checked:disabled + label:before {
   transform: scale(1);
-  border-color: #aaa;
-}
-
-
-
-.encerclement{
-  border: 5px solid var(--orange);
-  margin: 10px;
-  border-radius: 2%;
-  margin-bottom: 5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  background-color: var(--orange);
+  border-color: var(--blanc);
 }

@@ -1,8 +1,8 @@
 
 .search-box {
-    position: absolute;
+    /* position: absolute;
     top: 47%;
-    left: 51%;
+    left: 51%; */
     
    
     transform: translate(-50%, -50%);
@@ -11,15 +11,25 @@
     border-radius: 40px;
     padding: 10px;
   }
-  .search-box:hover > .search-txt {
-    width: 460px;
-    padding: 0 6px;
-    text-align: center;
-  }
+
   .search-box:hover > .search-btn {
     background: var(--orange);
     color: white;
   }
+
+@keyframes search {
+  0% {
+    width: 0px;
+    padding: 0;
+
+  }
+  100% {
+    width: 430px;
+    padding: 0 6px;
+
+  }
+}
+
   .search-btn {
  
     float: right;
@@ -38,6 +48,7 @@
     font-size: 20px;
   }
   .search-txt {
+    text-align: center;
     border: none;
     background: none;
     outline: none;
@@ -49,6 +60,7 @@
     line-height: 40px;
     width: 0px;
     font-weight: bold;
+    animation: .5s search 1s forwards;
   }
 .lope{
   align-items: center;

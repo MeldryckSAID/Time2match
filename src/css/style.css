@@ -2,14 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@import url("/src/css/variable.css");
-@import url("/src/css/Fond.css");
-@import url("/src/css/footer.css");
-@import url("/src/css/typo.css");
-@import url("/src/css/Media.css");
+/* layout */
 
-@import url("/src/css/loupe.css");
-@import url("/src/css/barre.css");
+@import url("/src/css/utils/variable.css");
 
-@import url("/src/css/position.css");
-@import url("/src/css/bouton.css");
+/* base */
+
+@import url("/src/css/base/Fond.css");
+@import url("/src/css/base/position.css");
+
+
+/* layout  */
+
+@import url("/src/css/layout/footer.css");
+
+/* componant */
+
+@import url("/src/css/componant/bouton.css");
+@import url("/src/css/componant/loupe.css");
+@import url("/src/css/componant/Media.css");
+@import url("/src/css/componant/typo.css");
+
+

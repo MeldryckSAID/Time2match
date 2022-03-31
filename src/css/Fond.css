@@ -1,7 +1,7 @@
 
 body {
    
-    background-color: black;
+    background-color: var(--noir);
   
     
   }
@@ -54,7 +54,7 @@ input[type=checkbox] + label:active:before {
 input[type=checkbox]:checked + label:before {
   background-color: var(--orange);
   border-color: var(--orange);
-  color: black;
+  color: var(--noir);
 }
 
 input[type=checkbox]:disabled + label:before {
@@ -67,6 +67,8 @@ input[type=checkbox]:disabled + label:before {
 .encerclement{
   border: 5px solid var(--orange);
   margin: 10px;
-  border-radius: 30%;
-  margin-bottom: 30px;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }

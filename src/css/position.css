@@ -133,33 +133,11 @@
         
       }
       .button_place{
-        border: 3px solid pink;
+        /* border: 3px solid pink; */
         grid-column: 4/ span 2;
         grid-row: 6 / span 1;
+        display: flex;
+        justify-content: center;
       }
-button{
-   
-   
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: var(--orange);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-}
 
-.button:hover {background-color: rgb(180, 130, 38)}
-
-.button:active {
-    background-color: black;
-    color: var(--orange);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-  .button:hover {opacity: 1}
+    

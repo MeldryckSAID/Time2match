@@ -2,14 +2,15 @@
 
 
 /* Color styles */
---orange: rgba(255, 140, 0, 1);
---blanc: rgba(255, 255, 255, 1);
---noir: rgba(23, 23, 23, 1);
+--orange: #FF8C00;
+--blanc: #FEFEFE;
+--noir: #1A2023;
 
 /* Text-size styles */
---fin: 30px;
---medium: 50px;
---titre: 100px;
+/* base size: fin (30px) */
+--fin: 1rem;
+--medium: 1.67rem;
+--titre: 3.33rem;
 
  /*Font-family styles*/
  --quick:'Quicksand';

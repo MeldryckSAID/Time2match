@@ -4,7 +4,7 @@
  }
 
  h1{
-    color: white;
+    color: var(--blanc);
     display: flex;
     justify-content: center;
     
@@ -20,14 +20,14 @@
   }
 
   p{
-    color: white;
+    color: var(--blanc);
     text-align: center;
     font-weight: 200; 
   }
 
   h3
   {
-    color: silver;
+    color: var(--blanc);
     font-size: 40px;
     position: relative;
     top: 55%;
@@ -38,7 +38,7 @@
   .form_txt{
     text-align: center;
     border: none;
-    background: white;
+    background: var(--blanc);
     outline: none;
     float: left;
     padding: 0;

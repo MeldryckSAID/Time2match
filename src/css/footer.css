@@ -1,4 +1,6 @@
 footer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     background-color: var(--orange);
     display: flex;
     align-items: center;
@@ -7,9 +9,13 @@ footer{
 }
 
 footer p {
-    color: black;
+    color: var(--noir);
     display: flex;
     font-weight: 800;
     font-family: var(--quick);
 
+}
+
+.résau{
+padding: 2%;
 }

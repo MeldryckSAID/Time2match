@@ -6,7 +6,7 @@
     
    
     transform: translate(-50%, -50%);
-    background: white;
+    background: var(--blanc);
     height: 40px;
     border-radius: 40px;
     padding: 10px;
@@ -14,7 +14,7 @@
 
   .search-box:hover > .search-btn {
     background: var(--orange);
-    color: white;
+    color: var(--blanc);
   }
 
 @keyframes search {
@@ -36,11 +36,11 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: black;
+    background: var(--noir);
     display: flex;
     justify-content: center;
     transition: 1s;
-    color: white;
+    color: var(--blanc);
     
     text-decoration: none;
   }
